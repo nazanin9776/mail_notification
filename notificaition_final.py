@@ -8,7 +8,7 @@ import re
 from exchangelib import Credentials, Account, DELEGATE, EWSDateTime
 
 # Set up the Exchange server account
-credentials = Credentials('noc@digikala.com', '#6YdbH36aD')
+credentials = Credentials('noc@digikala.com', '')
 account = Account(primary_smtp_address='noc@digikala.com', credentials=credentials, autodiscover=True, access_type=DELEGATE)
 
 # Get the timezone for the Exchange server (replace 'America/New_York' with the correct timezone)
